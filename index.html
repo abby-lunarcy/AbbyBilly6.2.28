@@ -171,7 +171,7 @@
             flex: 0 1 120px;
         }
 
-        /* Venue Subtitle Link */
+        /* Venue Subtitle Link and Address */
         .venue-subtitle {
             margin-top: -15px;
             margin-bottom: 35px;
@@ -193,6 +193,14 @@
         .venue-subtitle i {
             margin-right: 8px;
             font-size: 1.1rem;
+        }
+
+        .venue-address {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.95rem;
+            color: var(--text-dark);
+            margin-top: 10px;
+            line-height: 1.5;
         }
 
         /* Timeline / Wedding Day */
@@ -267,6 +275,22 @@
             font-size: 0.8rem;
             margin-top: 15px;
             line-height: 1.8;
+        }
+
+        /* Photos Section */
+        .photos-text {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .photos-icon {
+            font-size: 2rem;
+            color: var(--text-purple);
+            margin-bottom: 15px;
         }
 
         /* RSVP Section */
@@ -368,6 +392,7 @@
             <a href="#home">HOME</a>
             <a href="#wedding-day">WEDDING DAY</a>
             <a href="#accommodations">ACCOMMODATIONS</a>
+            <a href="#photos">PHOTOS</a>
             <a href="#rsvp">RSVP</a>
         </nav>
 
@@ -389,11 +414,15 @@
                 <h2>WEDDING DAY</h2>
             </div>
             
-            <!-- Added Map Link Subtitle -->
+            <!-- Map Link Subtitle and Address -->
             <div class="venue-subtitle">
                 <a href="https://maps.app.goo.gl/mnryCEVUmoL7K5cX6" target="_blank" rel="noopener noreferrer">
                     <i class="fa-solid fa-location-dot"></i>The Graycliff
                 </a>
+                <p class="venue-address">
+                    122 Moonachie Ave<br>
+                    Moonachie, NJ 07074
+                </p>
             </div>
 
             <div class="timeline">
@@ -456,6 +485,21 @@
                     <strong>Book by: February 2, 2028</strong>
                 </div>
             </div>
+        </section>
+
+        <!-- Photos Section -->
+        <section class="content-section" id="photos">
+            <div class="flourish"><i class="fa-brands fa-pagelines"></i></div>
+            <div class="section-header">
+                <h2>PHOTOS</h2>
+            </div>
+            
+            <div class="photos-icon"><i class="fa-solid fa-camera-retro"></i></div>
+            <p class="photos-text">
+                We can't wait to capture all the beautiful moments from our big day! After the wedding, we will be sharing our professional photos here, and we would love for you to upload the memories you capture on your phones as well.
+            </p>
+            
+            <a href="https://photos.app.goo.gl/87C4PhFHwK46CgSm7" target="_blank" rel="noopener noreferrer" class="btn">VIEW & SHARE PHOTOS</a>
         </section>
 
         <!-- RSVP Section -->
